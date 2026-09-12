@@ -10,7 +10,7 @@ pub struct AppState {
 }
 
 impl AppState {
-    // Crea un nuovo AppState 
+    // Crea un nuovo AppState
     pub fn new(conn: Connection) -> Self {
         Self {
             state: Arc::new(RwLock::new(ServerState::default())),
@@ -23,7 +23,7 @@ impl AppState {
         self.state.clone()
     }
 
-    // Esegue una closure con accesso in lettura allo ServerState.    
+    // Esegue una closure con accesso in lettura allo ServerState.
     pub fn with_state<F, R>(&self, f: F) -> R
     where
         F: FnOnce(&ServerState) -> R,
@@ -41,7 +41,7 @@ impl AppState {
         f(&mut guard)
     }
 
-    // Restituisce un clone del Arc<Mutex<Connection>> per passarlo a spawn_blocking.  
+    // Restituisce un clone del Arc<Mutex<Connection>> per passarlo a spawn_blocking.
     pub fn db_arc(&self) -> Arc<Mutex<Connection>> {
         self.db.clone()
     }
@@ -51,9 +51,9 @@ impl AppState {
 mod tests {
     use super::*;
     use crate::db::connection::init_in_memory;
-    use tokio::sync::mpsc;
-    use crate::network::state::ClientInfo;
     use crate::models::UserState;
+    use crate::network::state::ClientInfo;
+    use tokio::sync::mpsc;
 
     #[test]
     fn test_app_state_read_write() {
@@ -66,7 +66,11 @@ mod tests {
 
         // Inserimento utente
         let (tx, _rx) = mpsc::channel(10);
-        let client_info = ClientInfo { sender: tx, last_update: None, stopped: false, current_state: UserState::Fermo };
+        let client_info = ClientInfo {
+            sender: tx,
+            last_update: None,
+            current_state: UserState::Fermo,
+        };
         app_state.with_state_mut(|st| {
             st.online_users.insert("bob".into(), client_info);
         });
@@ -96,10 +100,14 @@ mod tests {
                 let username = format!("user_{}", i);
                 let (tx, _rx) = mpsc::channel(10);
                 state_clone.with_state_mut(|st| {
-                    let client_info = ClientInfo { sender: tx, last_update: None, stopped: false, current_state: UserState::Fermo };
-                st.online_users.insert(username.clone(), client_info);
-            });
-            let exists = state_clone.with_state(|st| st.online_users.contains_key(&username));
+                    let client_info = ClientInfo {
+                        sender: tx,
+                        last_update: None,
+                        current_state: UserState::Fermo,
+                    };
+                    st.online_users.insert(username.clone(), client_info);
+                });
+                let exists = state_clone.with_state(|st| st.online_users.contains_key(&username));
                 assert!(exists);
             }));
         }

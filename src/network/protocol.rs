@@ -56,11 +56,11 @@ pub enum ServerMessage {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::network::app_state::AppState;
     use crate::db::connection::init_in_memory;
-    use tokio::sync::mpsc;
-    use crate::network::state::ClientInfo;
     use crate::models::UserState;
+    use crate::network::app_state::AppState;
+    use crate::network::state::ClientInfo;
+    use tokio::sync::mpsc;
 
     #[test]
     fn test_app_state_read_write() {
@@ -73,7 +73,11 @@ mod tests {
 
         // Inserimento utente
         let (tx, _rx) = mpsc::channel(10);
-        let client_info = ClientInfo { sender: tx, last_update: None, stopped: false, current_state: UserState::Fermo };
+        let client_info = ClientInfo {
+            sender: tx,
+            last_update: None,
+            current_state: UserState::Fermo,
+        };
         app_state.with_state_mut(|st| {
             st.online_users.insert("bob".into(), client_info);
         });

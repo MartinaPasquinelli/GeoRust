@@ -1,8 +1,8 @@
-use std::collections::HashMap;
-use tokio::sync::mpsc;
-use std::time::Instant;
-use crate::models::UserState;
 use crate::gps::state::UserTracker;
+use crate::models::UserState;
+use std::collections::HashMap;
+use std::time::Instant;
+use tokio::sync::mpsc;
 
 pub type ClientSender = mpsc::Sender<String>;
 
@@ -20,7 +20,6 @@ pub struct ClientInfo {
     pub current_state: UserState, // current user state as determined by server
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -31,7 +30,11 @@ mod tests {
         assert!(state.online_users.is_empty());
 
         let (tx, _rx) = mpsc::channel(10);
-        let client_info = ClientInfo { sender: tx, last_update: None, stopped: false, current_state: UserState::Fermo };
+        let client_info = ClientInfo {
+            sender: tx,
+            last_update: None,
+            current_state: UserState::Fermo,
+        };
         state.online_users.insert("alice".into(), client_info);
         assert_eq!(state.online_users.len(), 1);
         assert!(state.online_users.contains_key("alice"));

@@ -219,12 +219,10 @@ impl ClientApp {
 
         self.runtime.spawn(async move {
             let mut index = 0;
-            let mut last_sent = route_coords[0];
             loop {
                 if !is_stopped.load(Ordering::Relaxed) {
                     let (lat, lon) = route_coords[index % route_coords.len()];
                     index += 1;
-                    last_sent = (lat, lon);
 
                     let _ = tx_gps.send((lat, lon));
                     let update_msg = ClientMessage::UpdatePosition { lat, lon };
@@ -253,7 +251,9 @@ impl ClientApp {
                 .filter_map(|line| {
                     let parts: Vec<&str> = line.trim().split(',').collect();
                     if parts.len() == 2 {
-                        if let (Ok(lat), Ok(lon)) = (parts[0].parse::<f64>(), parts[1].parse::<f64>()) {
+                        if let (Ok(lat), Ok(lon)) =
+                            (parts[0].parse::<f64>(), parts[1].parse::<f64>())
+                        {
                             return Some((lat, lon));
                         }
                     }
@@ -297,16 +297,22 @@ impl ClientApp {
                 if let Ok(server_msg) = serde_json::from_str::<ServerMessage>(&line) {
                     match server_msg {
                         ServerMessage::DirectText { from, text, .. } => {
-                            if from == self.username || from.starts_with(&format!("{} (", self.username)) {
+                            if from == self.username
+                                || from.starts_with(&format!("{} (", self.username))
+                            {
                                 continue;
                             }
-                            self.chat_logs.push(format!("[DA {} (Privato)]: {}", from, text));
+                            self.chat_logs
+                                .push(format!("[DA {} (Privato)]: {}", from, text));
                         }
                         ServerMessage::BroadcastText { from, text } => {
-                            if from == self.username || from.starts_with(&format!("{} (", self.username)) {
+                            if from == self.username
+                                || from.starts_with(&format!("{} (", self.username))
+                            {
                                 continue;
                             }
-                            self.chat_logs.push(format!("[BROADCAST da {}]: {}", from, text));
+                            self.chat_logs
+                                .push(format!("[BROADCAST da {}]: {}", from, text));
                         }
                         ServerMessage::AuthResult { success: _, msg } => {
                             self.chat_logs.push(format!("Info Server: {}", msg));
@@ -384,13 +390,20 @@ impl eframe::App for ClientApp {
 
                 // Tasto per simulare lo stato "Fermo"
                 let currently_stopped = self.is_stopped.load(Ordering::Relaxed);
-                let btn_label = if currently_stopped { "Riprendi Movimento" } else { "Simula Fermo" };
+                let btn_label = if currently_stopped {
+                    "Riprendi Movimento"
+                } else {
+                    "Simula Fermo"
+                };
                 ui.horizontal(|ui| {
                     if ui.button(btn_label).clicked() {
                         self.is_stopped.store(!currently_stopped, Ordering::Relaxed);
                     }
                     if currently_stopped {
-                        ui.colored_label(egui::Color32::YELLOW, "VEICOLO FERMO (simulazione in corso)");
+                        ui.colored_label(
+                            egui::Color32::YELLOW,
+                            "VEICOLO FERMO (simulazione in corso)",
+                        );
                     } else {
                         // When stopped, do not send any GPS data to the GUI
                         // (previously sent the last position as a placeholder).
@@ -401,7 +414,10 @@ impl eframe::App for ClientApp {
 
                 if let (Some(lat), Some(lon)) = (self.last_lat, self.last_lon) {
                     ui.group(|ui| {
-                        ui.label(format!("Ultima Posizione Trasmessa: lat={:.6}, lon={:.6}", lat, lon));
+                        ui.label(format!(
+                            "Ultima Posizione Trasmessa: lat={:.6}, lon={:.6}",
+                            lat, lon
+                        ));
                     });
                 } else {
                     ui.label("Avvio trasmissione coordinate in corso...");

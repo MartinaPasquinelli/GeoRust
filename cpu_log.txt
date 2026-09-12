@@ -1,0 +1,196 @@
+[2026-08-27 20:12:48] Tempo di CPU totale utilizzato: 515.62ms (Utilizzo nell'ultimo intervallo: 0.00%)
+[2026-08-27 20:14:48] Tempo di CPU totale utilizzato: 875.00ms (Utilizzo nell'ultimo intervallo: 0.30%)
+[2026-08-27 20:16:48] Tempo di CPU totale utilizzato: 1.22s (Utilizzo nell'ultimo intervallo: 0.29%)
+[2026-08-27 20:18:48] Tempo di CPU totale utilizzato: 1.23s (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-08-27 20:20:48] Tempo di CPU totale utilizzato: 1.27s (Utilizzo nell'ultimo intervallo: 0.03%)
+[2026-08-27 20:22:48] Tempo di CPU totale utilizzato: 1.30s (Utilizzo nell'ultimo intervallo: 0.03%)
+[2026-08-27 20:24:48] Tempo di CPU totale utilizzato: 1.31s (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-08-27 20:26:48] Tempo di CPU totale utilizzato: 1.31s (Utilizzo nell'ultimo intervallo: 0.00%)
+[2026-08-27 20:28:48] Tempo di CPU totale utilizzato: 1.34s (Utilizzo nell'ultimo intervallo: 0.03%)
+[2026-08-27 20:32:43] Tempo di CPU totale utilizzato: 1.25s (Utilizzo nell'ultimo intervallo: 0.00%)
+[2026-08-27 20:34:43] Tempo di CPU totale utilizzato: 1.31s (Utilizzo nell'ultimo intervallo: 0.05%)
+[2026-08-27 20:36:43] Tempo di CPU totale utilizzato: 1.36s (Utilizzo nell'ultimo intervallo: 0.04%)
+[2026-08-27 20:38:43] Tempo di CPU totale utilizzato: 1.41s (Utilizzo nell'ultimo intervallo: 0.04%)
+[2026-08-27 20:40:43] Tempo di CPU totale utilizzato: 1.44s (Utilizzo nell'ultimo intervallo: 0.03%)
+[2026-08-27 20:42:43] Tempo di CPU totale utilizzato: 1.44s (Utilizzo nell'ultimo intervallo: 0.00%)
+[2026-08-28 11:23:41] Tempo di CPU totale utilizzato: 1.73s (Utilizzo nell'ultimo intervallo: 0.00%)
+[2026-08-28 11:25:41] Tempo di CPU totale utilizzato: 1.81s (Utilizzo nell'ultimo intervallo: 0.07%)
+[2026-08-28 11:27:41] Tempo di CPU totale utilizzato: 1.88s (Utilizzo nell'ultimo intervallo: 0.05%)
+[2026-08-28 11:29:41] Tempo di CPU totale utilizzato: 1.97s (Utilizzo nell'ultimo intervallo: 0.08%)
+[2026-08-28 11:31:41] Tempo di CPU totale utilizzato: 2.00s (Utilizzo nell'ultimo intervallo: 0.03%)
+[2026-08-28 11:34:24] Tempo di CPU totale utilizzato: 1.77s (Utilizzo nell'ultimo intervallo: 0.00%)
+[2026-08-28 11:36:24] Tempo di CPU totale utilizzato: 1.89s (Utilizzo nell'ultimo intervallo: 0.10%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-08-28 11:39:31] ===
+[2026-08-28 11:41:31] Tempo di CPU totale utilizzato: 734.38ms (Utilizzo nell'ultimo intervallo: 0.00%)
+[2026-08-28 11:43:32] Tempo di CPU totale utilizzato: 734.38ms (Utilizzo nell'ultimo intervallo: 0.00%)
+[2026-08-28 11:45:32] Tempo di CPU totale utilizzato: 765.62ms (Utilizzo nell'ultimo intervallo: 0.03%)
+[2026-08-28 11:47:32] Tempo di CPU totale utilizzato: 781.25ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-08-28 11:49:32] Tempo di CPU totale utilizzato: 796.88ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-08-28 11:51:32] Tempo di CPU totale utilizzato: 828.12ms (Utilizzo nell'ultimo intervallo: 0.03%)
+[2026-08-28 11:53:32] Tempo di CPU totale utilizzato: 843.75ms (Utilizzo nell'ultimo intervallo: 0.01%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-08-28 11:54:02] ===
+[2026-08-28 11:56:02] Tempo di CPU totale utilizzato: 79.05s (Utilizzo nell'ultimo intervallo: 0.04%)
+[2026-08-28 11:58:02] Tempo di CPU totale utilizzato: 161.06s (Utilizzo nell'ultimo intervallo: 68.34%)
+[2026-08-28 12:00:02] Tempo di CPU totale utilizzato: 232.44s (Utilizzo nell'ultimo intervallo: 59.47%)
+[2026-08-28 12:02:02] Tempo di CPU totale utilizzato: 288.31s (Utilizzo nell'ultimo intervallo: 46.55%)
+[2026-08-28 12:04:02] Tempo di CPU totale utilizzato: 288.34s (Utilizzo nell'ultimo intervallo: 0.03%)
+[2026-08-28 12:06:02] Tempo di CPU totale utilizzato: 288.38s (Utilizzo nell'ultimo intervallo: 0.03%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-02 12:17:54] ===
+[2026-09-02 12:19:54] Tempo di CPU totale utilizzato: 703.12ms (Utilizzo nell'ultimo intervallo: 0.29%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-02 12:22:55] ===
+[2026-09-02 12:24:55] Tempo di CPU totale utilizzato: 875.00ms (Utilizzo nell'ultimo intervallo: 0.34%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-02 12:43:03] ===
+[2026-09-02 12:43:03] Tempo di CPU iniziale: 359.38ms (Utilizzo: 100.00%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-02 12:47:21] ===
+[2026-09-02 12:47:21] Tempo di CPU iniziale: 453.12ms (Utilizzo: 0.00%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-02 12:52:24] ===
+[2026-09-02 12:52:24] Tempo di CPU iniziale: 656.25ms (Utilizzo: 20.59%)
+[2026-09-02 12:54:24] Tempo di CPU totale utilizzato: 1.12s (Utilizzo nell'ultimo intervallo: 0.39%)
+[2026-09-02 12:56:24] Tempo di CPU totale utilizzato: 1.14s (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-02 12:58:24] Tempo di CPU totale utilizzato: 1.27s (Utilizzo nell'ultimo intervallo: 0.10%)
+[2026-09-02 13:00:24] Tempo di CPU totale utilizzato: 1.28s (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-02 13:02:24] Tempo di CPU totale utilizzato: 1.30s (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-02 13:04:25] Tempo di CPU totale utilizzato: 1.30s (Utilizzo nell'ultimo intervallo: 0.00%)
+[2026-09-02 13:49:57] Tempo di CPU totale utilizzato: 1.31s (Utilizzo nell'ultimo intervallo: 0.00%)
+[2026-09-02 13:51:57] Tempo di CPU totale utilizzato: 1.33s (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-02 13:53:57] Tempo di CPU totale utilizzato: 1.42s (Utilizzo nell'ultimo intervallo: 0.08%)
+[2026-09-02 13:55:57] Tempo di CPU totale utilizzato: 1.44s (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-02 13:57:57] Tempo di CPU totale utilizzato: 1.47s (Utilizzo nell'ultimo intervallo: 0.03%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-02 13:58:51] ===
+[2026-09-02 13:58:51] Tempo di CPU iniziale: 640.62ms (Utilizzo: 3.03%)
+[2026-09-02 14:00:51] Tempo di CPU totale utilizzato: 968.75ms (Utilizzo nell'ultimo intervallo: 0.26%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-02 14:04:38] ===
+[2026-09-02 14:04:38] Tempo di CPU iniziale: 515.62ms (Utilizzo: 0.00%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-02 16:48:53] ===
+[2026-09-02 16:48:53] Tempo di CPU iniziale: 703.12ms (Utilizzo: 0.00%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-02 16:50:45] ===
+[2026-09-02 16:50:45] Tempo di CPU iniziale: 406.25ms (Utilizzo: 3.03%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-02 17:42:42] ===
+[2026-09-02 17:42:42] Tempo di CPU iniziale: 671.88ms (Utilizzo: 17.65%)
+[2026-09-02 17:44:42] Tempo di CPU totale utilizzato: 718.75ms (Utilizzo nell'ultimo intervallo: 0.04%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-02 18:00:16] ===
+[2026-09-02 18:00:16] Tempo di CPU iniziale: 718.75ms (Utilizzo: 2.94%)
+[2026-09-02 18:02:17] Tempo di CPU totale utilizzato: 750.00ms (Utilizzo nell'ultimo intervallo: 0.03%)
+[2026-09-02 18:04:17] Tempo di CPU totale utilizzato: 812.50ms (Utilizzo nell'ultimo intervallo: 0.05%)
+[2026-09-02 18:06:17] Tempo di CPU totale utilizzato: 843.75ms (Utilizzo nell'ultimo intervallo: 0.03%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-02 18:08:32] ===
+[2026-09-02 18:08:32] Tempo di CPU iniziale: 406.25ms (Utilizzo: 2.94%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-02 18:10:05] ===
+[2026-09-02 18:10:05] Tempo di CPU iniziale: 328.12ms (Utilizzo: 2.94%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-02 18:14:27] ===
+[2026-09-02 18:14:27] Tempo di CPU iniziale: 421.88ms (Utilizzo: 3.03%)
+[2026-09-02 18:16:27] Tempo di CPU totale utilizzato: 468.75ms (Utilizzo nell'ultimo intervallo: 0.04%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-03 15:37:22] ===
+[2026-09-03 15:37:22] Tempo di CPU iniziale: 437.50ms (Utilizzo: 2.94%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-03 16:01:36] ===
+[2026-09-03 16:01:36] Tempo di CPU iniziale: 656.25ms (Utilizzo: 18.18%)
+[2026-09-03 16:03:36] Tempo di CPU totale utilizzato: 38.09s (Utilizzo nell'ultimo intervallo: 31.19%)
+[2026-09-03 16:05:36] Tempo di CPU totale utilizzato: 77.39s (Utilizzo nell'ultimo intervallo: 32.74%)
+[2026-09-03 16:07:36] Tempo di CPU totale utilizzato: 83.27s (Utilizzo nell'ultimo intervallo: 4.90%)
+[2026-09-03 16:09:36] Tempo di CPU totale utilizzato: 83.27s (Utilizzo nell'ultimo intervallo: 0.00%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-05 19:13:46] ===
+[2026-09-05 19:13:46] Tempo di CPU iniziale: 515.62ms (Utilizzo: 2.94%)
+[2026-09-05 19:15:46] Tempo di CPU totale utilizzato: 640.62ms (Utilizzo nell'ultimo intervallo: 0.03%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-05 19:18:18] ===
+[2026-09-05 19:18:18] Tempo di CPU iniziale: 515.62ms (Utilizzo: 14.71%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-05 19:18:56] ===
+[2026-09-05 19:18:56] Tempo di CPU iniziale: 421.88ms (Utilizzo: 0.00%)
+[2026-09-10 14:44:38] Tempo di CPU totale utilizzato: 671.88ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 14:46:38] Tempo di CPU totale utilizzato: 687.50ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 14:48:38] Tempo di CPU totale utilizzato: 703.12ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 14:50:38] Tempo di CPU totale utilizzato: 718.75ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 14:52:38] Tempo di CPU totale utilizzato: 734.38ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 14:54:38] Tempo di CPU totale utilizzato: 750.00ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 14:56:38] Tempo di CPU totale utilizzato: 765.62ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 14:58:38] Tempo di CPU totale utilizzato: 859.38ms (Utilizzo nell'ultimo intervallo: 0.03%)
+[2026-09-10 15:00:38] Tempo di CPU totale utilizzato: 875.00ms (Utilizzo nell'ultimo intervallo: 0.07%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-10 15:04:12] ===
+[2026-09-10 15:04:12] Tempo di CPU iniziale: 640.62ms (Utilizzo: 3.03%)
+[2026-09-10 15:06:12] Tempo di CPU totale utilizzato: 656.25ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 15:08:12] Tempo di CPU totale utilizzato: 671.88ms (Utilizzo nell'ultimo intervallo: 0.01%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-10 15:09:16] ===
+[2026-09-10 15:09:16] Tempo di CPU iniziale: 609.38ms (Utilizzo: 2.94%)
+[2026-09-10 15:11:16] Tempo di CPU totale utilizzato: 656.25ms (Utilizzo nell'ultimo intervallo: 0.04%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-10 15:22:31] ===
+[2026-09-10 15:22:31] Tempo di CPU iniziale: 515.62ms (Utilizzo: 2.94%)
+[2026-09-10 15:24:31] Tempo di CPU totale utilizzato: 609.38ms (Utilizzo nell'ultimo intervallo: 0.00%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-10 15:27:17] ===
+[2026-09-10 15:27:17] Tempo di CPU iniziale: 375.00ms (Utilizzo: 2.94%)
+[2026-09-10 15:29:17] Tempo di CPU totale utilizzato: 406.25ms (Utilizzo nell'ultimo intervallo: 0.03%)
+[2026-09-10 15:31:17] Tempo di CPU totale utilizzato: 421.88ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 15:33:17] Tempo di CPU totale utilizzato: 437.50ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 15:35:17] Tempo di CPU totale utilizzato: 453.12ms (Utilizzo nell'ultimo intervallo: 0.01%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-10 15:37:38] ===
+[2026-09-10 15:37:38] Tempo di CPU iniziale: 656.25ms (Utilizzo: 47.06%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-10 16:04:50] ===
+[2026-09-10 16:04:50] Tempo di CPU iniziale: 343.75ms (Utilizzo: 3.03%)
+[2026-09-10 16:06:50] Tempo di CPU totale utilizzato: 359.38ms (Utilizzo nell'ultimo intervallo: 0.01%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-10 16:10:34] ===
+[2026-09-10 16:10:34] Tempo di CPU iniziale: 546.88ms (Utilizzo: 2.94%)
+[2026-09-10 16:12:34] Tempo di CPU totale utilizzato: 578.12ms (Utilizzo nell'ultimo intervallo: 0.03%)
+[2026-09-10 16:14:34] Tempo di CPU totale utilizzato: 578.12ms (Utilizzo nell'ultimo intervallo: 0.00%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-10 16:19:16] ===
+[2026-09-10 16:19:16] Tempo di CPU iniziale: 406.25ms (Utilizzo: 3.03%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-10 16:29:00] ===
+[2026-09-10 16:29:00] Tempo di CPU iniziale: 781.25ms (Utilizzo: 18.18%)
+[2026-09-10 16:31:00] Tempo di CPU totale utilizzato: 796.88ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 16:33:00] Tempo di CPU totale utilizzato: 812.50ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 16:35:00] Tempo di CPU totale utilizzato: 828.12ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 16:37:00] Tempo di CPU totale utilizzato: 859.38ms (Utilizzo nell'ultimo intervallo: 0.03%)
+[2026-09-10 16:39:00] Tempo di CPU totale utilizzato: 953.12ms (Utilizzo nell'ultimo intervallo: 0.08%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-10 16:51:12] ===
+[2026-09-10 16:51:12] Tempo di CPU iniziale: 656.25ms (Utilizzo: 18.11%)
+[2026-09-10 16:53:12] Tempo di CPU totale utilizzato: 812.50ms (Utilizzo nell'ultimo intervallo: 0.13%)
+[2026-09-10 16:55:12] Tempo di CPU totale utilizzato: 937.50ms (Utilizzo nell'ultimo intervallo: 0.10%)
+[2026-09-10 16:57:12] Tempo di CPU totale utilizzato: 953.12ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 16:59:12] Tempo di CPU totale utilizzato: 1.06s (Utilizzo nell'ultimo intervallo: 0.09%)
+[2026-09-10 17:01:12] Tempo di CPU totale utilizzato: 1.12s (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 17:03:12] Tempo di CPU totale utilizzato: 1.14s (Utilizzo nell'ultimo intervallo: 0.05%)
+[2026-09-10 17:05:12] Tempo di CPU totale utilizzato: 1.17s (Utilizzo nell'ultimo intervallo: 0.03%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-10 17:08:01] ===
+[2026-09-10 17:08:01] Tempo di CPU iniziale: 531.25ms (Utilizzo: 2.94%)
+[2026-09-10 17:10:01] Tempo di CPU totale utilizzato: 718.75ms (Utilizzo nell'ultimo intervallo: 0.16%)
+[2026-09-10 17:12:01] Tempo di CPU totale utilizzato: 734.38ms (Utilizzo nell'ultimo intervallo: 0.01%)
+[2026-09-10 17:14:01] Tempo di CPU totale utilizzato: 750.00ms (Utilizzo nell'ultimo intervallo: 0.01%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-10 17:15:04] ===
+[2026-09-10 17:15:04] Tempo di CPU iniziale: 421.88ms (Utilizzo: 3.03%)
+[2026-09-10 17:17:04] Tempo di CPU totale utilizzato: 515.62ms (Utilizzo nell'ultimo intervallo: 0.08%)
+[2026-09-10 17:19:04] Tempo di CPU totale utilizzato: 718.75ms (Utilizzo nell'ultimo intervallo: 0.17%)
+
+=== NUOVA SESSIONE SERVER AVVIATA [2026-09-10 18:26:57] ===
+[2026-09-10 18:26:57] Tempo di CPU iniziale: 562.50ms (Utilizzo: 3.04%)
+[2026-09-10 18:28:57] Tempo di CPU totale utilizzato: 671.88ms (Utilizzo nell'ultimo intervallo: 0.09%)
+[2026-09-10 18:30:57] Tempo di CPU totale utilizzato: 796.88ms (Utilizzo nell'ultimo intervallo: 0.09%)

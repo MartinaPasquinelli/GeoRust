@@ -1,0 +1,26 @@
+[package]
+name = "georust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Per la serializzazione/deserializzazione delle struct
+serde = { version = "1.0", features = ["derive"] }
+# Per la gestione di date e timestamp
+chrono = { version = "0.4", features = ["serde"] }
+rusqlite = { version = "0.31", features = ["bundled"] }
+thiserror = "1.0"
+# Per l'hashing sicuro delle password
+argon2 = { version = "0.5", features = ["std"] }
+tokio = { version = "1.53.1", features = ["full"] }
+serde_json = "1.0.151"
+futures = "0.3.34"
+tokio-util = { version = "0.7.19", features = ["codec"] }
+sysinfo = "0.30"
+cpu-time = "1.0.0"
+eframe = "0.27"
+egui = "0.27"
+rand = "0.10.2"
+sha2 = "0.11.0"
+hex = "0.4.3"
+rpassword = "7"
